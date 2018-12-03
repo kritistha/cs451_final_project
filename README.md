@@ -4,7 +4,7 @@
 For the final project you and a partner (triads are ok if necessary) will build a django web application. The direction of the project is completely up to you but must have the indicated components.
 
 ## Project Description
-The Computer Science department would like a web application that allows students to search for a listing of jobs that are within a given distance from NMHU. The distance is input by the user. For example, a student would like to see a listing of all jobs in the db within a 100 mile radius of NMHU. The application should show the listing of jobs and a marker on a map. A job is described as having a title, a salary, and location (latitude, longitude). The application should have a menu containing: a) access to all the jobs in the db as a list, b) the search form, c) the homepage. 
+The Computer Science department would like a web application that allows students to search for a listing of jobs that are within 100 miles from NMHU.  For example, a user can see a listing of all jobs in the db within a 100 mile radius of NMHU. The application should show the listing of jobs and a marker on a map. A job is described as having a title, a salary, and location (latitude, longitude). The application should have a menu containing: a) access to all the jobs in the db as a list, b) acceess to a page containing a subset of jobs, c) the homepage. 
 
 
 ## Tasks Overview
@@ -29,7 +29,7 @@ The Computer Science department would like a web application that allows student
 
 * Github repo must include:
 
-    - wiki page containing a) requirements listing using FURPS and b) class diagram 
+    - wiki page containing a) requirements listing using FURPS b) use cases, and c) class diagram 
 
     - identified tasks (issues) for each member of team
 
