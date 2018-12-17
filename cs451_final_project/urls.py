@@ -17,5 +17,9 @@ from django.contrib import admin
 from django.urls import path
 
 urlpatterns = [
+    path('', HomeView.as_view(), name='home'),
+    path('job/<int:pk>', JobView.as_view(), name='job'),
+    path('jobs/', JobListView.as_view(), name='jobs'),
+    path('jobSearch/', JobSearchView.as_view(), name='job_search'),
     path('admin/', admin.site.urls),
 ]
